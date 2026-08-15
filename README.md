@@ -14,7 +14,7 @@ This system is an early-risk screening/decision-support prototype, NOT a diagnos
 - **Original source:** National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)
 - **Availability:** Publicly available through the UCI Machine Learning Repository / Kaggle.
 - **File used:** `data/diabetes.csv` — 768 records, 8 input features, 1 binary outcome. No names, IDs, or direct personal identifiers are present.
-- **Citation:** National Institute of Diabetes and Digestive and Kidney Diseases. *Pima Indians Diabetes Database.* UCI Machine Learning Repository / Kaggle. Retrieved via `https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv`.
+- **Citation:** National Institute of Diabetes and Digestive and Kidney Diseases. *Pima Indians Diabetes Database.* UCI Machine Learning Repository / Kaggle. Retrieved via `https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv`, `https://www.kaggle.com/datasets/jamaltariqcheema/pima-indians-diabetes-dataset` (dataset link).
 
 The source cohort consists of adult women of Pima Indian heritage, so the model must not be assumed to generalise to other populations without external validation.
 
@@ -22,7 +22,7 @@ The source cohort consists of adult women of Pima Indian heritage, so the model 
 
 ```text
 mission_health/
-├── Mission_Health_CIA3.ipynb
+├── codebase/Mission_Health_CIA3.ipynb
 ├── data/diabetes.csv
 ├── outputs/
 ├── PITCH_SCRIPT.md
