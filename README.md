@@ -138,15 +138,15 @@ Because this is an early-risk screening problem, recall is an important metric b
 SHAP explainability was applied to the actual validation-selected XGBoost model.
 
 ### Global explanation
-`outputs/shap_global_summary.png`
+`results/shap_global_summary.png`
 The global SHAP summary plot highlights the most influential features driving predictions, including Glucose, BMI, Age, and the engineered Glucose × BMI interaction.
 
 ### Local explanation
-`outputs/shap_local_explanation.png`
+`results/shap_local_explanation.png`
 This plot shows the contribution of individual features for one held-out test record.
 
 ### Synthetic demonstration
-`outputs/shap_synthetic_patient_demo.png`
+`results/shap_synthetic_patient_demo.png`
 This is a separate synthetic record created specifically for the live demonstration. It does not represent a real patient from the test set.
 
 ## 11. Ethics Statement
