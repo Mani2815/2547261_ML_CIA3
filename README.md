@@ -24,8 +24,7 @@ The source cohort consists of adult women of Pima Indian heritage, so the model 
 mission_health/
 ├── codebase/Mission_Health_CIA3.ipynb
 ├── data/diabetes.csv
-├── outputs/
-├── PITCH_SCRIPT.md
+├── results/
 ├── requirements.txt
 └── README.md
 ```
